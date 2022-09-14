@@ -1,0 +1,30 @@
+<h1 mat-dialog-title>Faire un tirage</h1>
+<div mat-dialog-content>
+    <mat-form-field appearance="outline">
+        <mat-label>Nom du tirage</mat-label>
+        <input matInput placeholder="Nom" required="">
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Nombre de postulant a tiré</mat-label>
+        <input matInput placeholder="Liste" required="">
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Importer une liste déjà existants</mat-label>
+        <mat-select>
+          <mat-option value="valid">liste 1</mat-option>
+            <mat-option value="valid">liste 12</mat-option>
+            <mat-option value="invalid">liste 8</mat-option>
+          </mat-select>
+      </mat-form-field>
+
+      <label for="">Importer</label><br>
+      <input type="file">
+      <br>
+      <br>
+      <div class="example-button-container">
+        <button class="o" mat-button color="primary">Faire le tirage</button>
+      </div>
+      
+</div>
